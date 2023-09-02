@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_services",
+  "version": "1.0.0",
+  "description": "Portfolio Management and Get Portfolio Review by Financial Experts. ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production&&nodemon server.js"
+  },
+  "author": "Ashok",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^7.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.10.0",
+    "validator": "^13.11.0"
+  }
+}
